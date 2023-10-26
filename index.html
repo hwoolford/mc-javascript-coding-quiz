@@ -7,9 +7,55 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        
+        <section class="top-bar">
+            <div id="top-right">
+                <p id="timer"></p>
+            </div>
+            <div id="top-left">
+                <a id="view-high" href="#">View high scores</a>
+            </div>
+        </section>
 
+        <section id="start-element">
+            <h1 class="title">Coding Quiz Challenge</h1>
+            <p class="instructions">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                <div id="start-button-container">
+                    <button class="start-button">Start Quiz</button>
+                </div>
+        </section> 
+        
+        <section id="quiz-element">
+            <h1 id="question"></h1>
+            <div id="answer-choice-btn-container">
+                    <button class="answer-choices"></button>
+            </div>
+        </section>
 
+        <section id="evaluation-element">
+            <p id="evaluation"></p>
+        </section>
+
+        <section id="score-container">
+            <h1 id="done">All done!</h1>
+            <p id="score"></p>
+                <div id="initials-container">
+                    <p id="initials">Enter your initials: </p>
+                    <input type="text" id="intials-text-box" name="score">
+                    <button id="submit-button">Submit</button>
+                </div>
+        </section>
+                
+        <section id="high-score-container">
+            <h1 id="high-scores">High Scores</h1>
+            <input type="text" id="score-text-box" name="hscore" readonly>
+                <div id="hscore-button-container">
+                    <button id="back" onclick="window.location.reload()">Go Back</button>
+                    <button id="clear">Clear Scores</button>
+                </div>
+        </section>      
+    </div>
     <script src="./assets/javascript/script.js"></script>
 </body>
 </html>
