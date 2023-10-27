@@ -72,7 +72,11 @@
     font-size: 2.5em;
     margin-top: 5%;
     padding-bottom: 40px;
-    margin-left: 40%;
+}
+
+#question-container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 .answer, #back, #clear {
@@ -88,7 +92,7 @@
 }
 
 .answer {
-    margin: 16px 16px 16px 40%;
+    margin: 16px 16px 16px 30%;
     border-radius: 15px;
 }
     
@@ -176,6 +180,7 @@
 #evaluation {
     color: #351C75;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 #timer {
@@ -195,6 +200,15 @@
 
     #quiz-element {
         margin-top: 10%;
+    }
+
+    #question-container {
+        font-size: 1.5em;
+        margin: 5%;
+    }
+
+    .answer {
+        margin-left: 10%;
     }
 
     #score-container {

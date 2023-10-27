@@ -17,7 +17,7 @@ const submitBtn = document.getElementById("submit-button");
 const highScoreEl = document.getElementById("high-score-container");
 const hScoreTextBox = document.getElementById("score-text-box");
 
-let timeLeft = 40;
+let timeLeft = 90;
 
 //This array of objects stores all the questions and answer choices.
 const quizArray = [
