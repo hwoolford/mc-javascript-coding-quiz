@@ -22,54 +22,54 @@ let timeLeft = 40;
 //This array of objects stores all the questions and answer choices.
 const quizArray = [
     {
-        question: "Question 1",
-        answers: ["Answer1a", "Answer1b", "Answer1c", "Answer1d"],
-        correctAnswer: "Answer1a"    
+        question: "Which of the following methods is used to access HTML elements using JavaScript?",
+        answers: ["getElementById()", "getElementsByClassName()", "Both A and B", "None of the above"],
+        correctAnswer: "Both A and B"    
     },
     {
-        question: "Question 2",
-        answers: ["Answer2a", "Answer2b", "Answer2c", "Answer2d"],
-        correctAnswer: "Answer2b"    
+        question: "Which function is used to serialize an object into a JSON string in JavaScript?",
+        answers: ["stringify()", "parse()", "convert()", "None of the above"],
+        correctAnswer: "stringify()"    
     },
     {
-        question: "Question 3",
-        answers: ["Answer3a", "Answer3b", "Answer3c", "Answer3d"],
-        correctAnswer: "Answer3c"    
+        question: "Which of the following are closures in JavaScript?",
+        answers: ["Variables", "Functions", "Objects", "All of the above"],
+        correctAnswer: "All of the above"    
     },
     {
-        question: "Question 4",
-        answers: ["Answer4a", "Answer4b", "Answer4c", "Answer4d"],
-        correctAnswer: "Answer4d"    
+        question: "How do you stop an interval timer in JavaScript?",
+        answers: ["clearInterval", "clearTimer", "intervalOver", "None of the above"],
+        correctAnswer: "clearInterval"    
     },
     {
-        question: "Question 5",
-        answers: ["Answer5a", "Answer5b", "Answer5c", "Answer5d"],
-        correctAnswer: "Answer5a"    
+        question: "How is a comment written in JavaScript?",
+        answers: ["/* */", "//", "#", "$ $"],
+        correctAnswer: "//"    
     },
     {
-        question: "Question 6",
-        answers: ["Answer6a", "Answer6b", "Answer6c", "Answer6d"],
-        correctAnswer: "Answer6b"    
+        question: "Arrays in JavaScript are defined by which of the following statements?",
+        answers: ["It is an ordered list of objects", "It is an ordered list of functions", "It is an ordered list of values", "It is an ordered list of string"],
+        correctAnswer: "It is an ordered list of values"    
     },
     {
-        question: "Question 7",
-        answers: ["Answer7a", "Answer7b", "Answer7c", "Answer7d"],
-        correctAnswer: "Answer7c"    
+        question: "Which of the following is the main entry point to all client-side JavaScript features and APIs?",
+        answers: ["Position", "Standard", "Location", "Window"],
+        correctAnswer: "Window"    
     },
     {
-        question: "Question 8",
-        answers: ["Answer8a", "Answer8b", "Answer8c", "Answer8d"],
-        correctAnswer: "Answer8d"    
+        question: "Why are event handlers needed in JavaScript?",
+        answers: ["Allows JavaScript code to alter the behavior of windows", "Adds innerHTML page to the code", "Changes the server location", "Performs handling of exceptions and occurrences"],
+        correctAnswer: "Allows JavaScript code to alter the behavior of windows"    
     },
     {
-        question: "Question 9",
-        answers: ["Answer9a", "Answer9b", "Answer9c", "Answer9d"],
-        correctAnswer: "Answer9a"    
+        question: "Which Window object method is used to display a message in a dialog box?",
+        answers: ["prompt()", "message()", "alert()", "console.log"],
+        correctAnswer: "alert()"    
     },
     {
-        question: "Question 10",
-        answers: ["Answer10a", "Answer10b", "Answer10c", "Answer10d"],
-        correctAnswer: "Answer10b"    
+        question: "In JavaScript the x===y statement implies that:",
+        answers: ["Both x and y are equal in value, type and reference address as well.", "Both are x and y are equal in value only.", "Both are equal in the value and data type.", "Both are not same at all."],
+        correctAnswer: "Both are equal in the value and data type."    
     }
 ];
 
