@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="wrapper">
-        
-        <section class="top-bar">
+
+        <section id="top-bar">
             <div id="top-right">
                 <p id="timer"></p>
             </div>
@@ -19,17 +19,16 @@
         </section>
 
         <section id="start-element">
-            <h1 class="title">Coding Quiz Challenge</h1>
-            <p class="instructions">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <h1 id="title">Coding Quiz Challenge</h1>
+            <p id="instructions">Try to answer the following code-related questions within the time limit.<br>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
                 <div id="start-button-container">
-                    <button class="start-button">Start Quiz</button>
+                    <button id="start-button">Start Quiz</button>
                 </div>
         </section> 
         
-        <section id="quiz-element">
-            <h1 id="question"></h1>
-            <div id="answer-choice-btn-container">
-                    <button class="answer-choices"></button>
+        <section id="quiz-element" style="display: none;">
+            <h1 id="question-container"></h1>
+            <div id="answer-btn-container">
             </div>
         </section>
 
@@ -37,22 +36,22 @@
             <p id="evaluation"></p>
         </section>
 
-        <section id="score-container">
+        <section id="score-container" style="display: none;">
             <h1 id="done">All done!</h1>
             <p id="score"></p>
                 <div id="initials-container">
                     <p id="initials">Enter your initials: </p>
-                    <input type="text" id="intials-text-box" name="score">
+                    <input type="text" id="initials-text-box" name="score">
                     <button id="submit-button">Submit</button>
                 </div>
         </section>
                 
-        <section id="high-score-container">
+        <section id="high-score-container" style="display: none;">
             <h1 id="high-scores">High Scores</h1>
-            <input type="text" id="score-text-box" name="hscore" readonly>
+            <output id="score-text-box"></output>
                 <div id="hscore-button-container">
                     <button id="back" onclick="window.location.reload()">Go Back</button>
-                    <button id="clear">Clear Scores</button>
+                    <button id="clear" onclick="clearScores()">Clear Scores</button>
                 </div>
         </section>      
     </div>

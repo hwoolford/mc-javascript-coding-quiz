@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+#top-bar {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 3% 10%;
+}
+
+#view-high {
+    text-decoration: none;
+    color: #C36EEA;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#view-high:hover {
+    color: #351C75
+}
+
+#start-element, #score-container, #high-score-container {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#start-element {
+    margin: 5% 20%;
+}
+
+#title, #done, #high-scores {
+    text-align: center;
+    font-size: 3.5em;
+    padding-bottom: 40px;
+}
+
+#instructions, #score {
+    text-align: center;
+    font-size: 2em;
+    line-height: 150%; 
+}
+
+#start-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#start-button {
+    border: none;
+    background-color: #351C75;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #C36EEA;
+}
+
+#question-container, #evaluation {
+    font-size: 2.5em;
+    margin-top: 5%;
+    padding-bottom: 40px;
+    margin-left: 40%;
+}
+
+.answer, #back, #clear {
+    border: none;
+    background-color: #351C75;    
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    line-height: 22px;    
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.answer {
+    margin: 16px 16px 16px 40%;
+    border-radius: 15px;
+}
+    
+.answer:hover, #submit-button:hover {
+    background-color: #C36EEA;
+}
+
+#score-container {
+    margin: 5% 35%;
+}
+
+#done, #score, #initials {
+    text-align: left;
+}
+
+#initials-container {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+#initials-text-box {
+    width: 100px;
+    height: 45px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#initials {
+    font-size: 2em;
+}
+
+#submit-button {
+    border: none;
+    background-color: #351C75;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#high-score-container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hscore-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+#score-text-box {
+    width: 300px;
+    height: auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    margin: 0 auto;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+}
+
+#back, #clear {
+    border-radius: 10px;
+}
+
+#back:hover, #clear:hover {
+    background-color: #C36EEA; 
+}
+
+#evaluation {
+    color: #351C75;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#timer {
+    font-size: 1.5em;
+    font-weight: bold;
+    float: right;
+}
