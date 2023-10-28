@@ -1,7 +1,9 @@
-# MC-JavaScript-Coding-Quiz
+# Multiple-Choice-JS-Coding-Quiz
 
 ## Description
+This project is a multiple choice quiz covering JavaScript. After clicking on the "Start Quiz" button, users are presented with 10 multiple choice questions to answer within 75 seconds. Each wrong answer will cause the available time to drop by 10 seconds. Once the quiz is over, users enter their initials and are presented with the high score screen that catalogs all past scores.
 
+### Visuals
 
 
 ### Resources and Acknowledgments
