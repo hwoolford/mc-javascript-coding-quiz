@@ -5,7 +5,13 @@ This project is a multiple choice quiz covering JavaScript. After clicking on th
 
 
 ## Visuals
+The following images show the start page, the score page, and the high scores page.
 
+![Start Page](./assets/images/startpage.png)
+
+![Score Page](./assets/images/scorepage.png)
+
+![High Score Page](./assets/images/highscorepage.png)
 
 
 ## Installation
